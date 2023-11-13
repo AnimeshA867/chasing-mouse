@@ -34,7 +34,7 @@ const Mouse = () => {
 
   return (
     <div className="h-screen w-screen overflow-hidden relative">
-      <motion.h1 className="text-[50px] font-bold w-full text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <motion.h1 className="text-[25px] md:text-[50px] font-bold w-full text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-400 to-blue-500">
           This is Mr. Chassy and Mrs. Chassy. Wherever Mrs. Chassy goes, Mr.
           Chassy would follow. Run if you can.
