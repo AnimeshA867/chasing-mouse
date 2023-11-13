@@ -41,7 +41,7 @@ const Mouse = () => {
         </span>
       </motion.h1>
       <motion.div
-        className="h-fit w-fit absolute pointer-events-none"
+        className="h-fit w-fit absolute"
         ref={ref}
         animate={{ x, y }}
         transition={{
@@ -61,7 +61,7 @@ const Mouse = () => {
         />
       </motion.div>
       <motion.div
-        className="h-fit w-fit absolute pointer-events-none"
+        className="h-fit w-fit absolute "
         drag
         ref={ref}
         animate={{ x, y }}
