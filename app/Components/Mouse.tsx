@@ -41,7 +41,7 @@ const Mouse = () => {
         </span>
       </motion.h1>
       <motion.div
-        className="h-fit w-fit absolute"
+        className=" absolute h-[150px] w-auto md:h-[300px] md:w-auto z-[1]"
         ref={ref}
         animate={{ x, y }}
         transition={{
@@ -50,18 +50,19 @@ const Mouse = () => {
           damping: 3,
           stiffness: 30,
           restDelta: 0.001,
+          mass: 1,
         }}
       >
         <Image
           src={"/mouse.webp"}
+          alt="Mr. Chassy"
           height={300}
           width={300}
-          alt="Mr. Chassy"
-          className="pointer-event-none"
+          className="pointer-events-none w-full h-full relative object-contain"
         />
       </motion.div>
       <motion.div
-        className="h-fit w-fit absolute "
+        className=" absolute h-[150px] w-auto md:h-[300px] md:w-auto z-[1] "
         drag
         ref={ref}
         animate={{ x, y }}
@@ -71,10 +72,10 @@ const Mouse = () => {
       >
         <Image
           src={"/mouse-female.webp"}
+          alt="Mrs. Chassy"
           height={300}
           width={300}
-          alt="Mrs. Chassy"
-          className="pointer-events-none"
+          className="pointer-events-none w-full h-full relative object-contain"
         />
       </motion.div>
     </div>
