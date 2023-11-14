@@ -53,7 +53,7 @@ const Mouse = () => {
         }}
       >
         <Image
-          src={"/mouse.png"}
+          src={"/mouse.webp"}
           height={300}
           width={300}
           alt="Mr. Chassy"
@@ -70,7 +70,7 @@ const Mouse = () => {
         }}
       >
         <Image
-          src={"/mouse-female.png"}
+          src={"/mouse-female.webp"}
           height={300}
           width={300}
           alt="Mrs. Chassy"
